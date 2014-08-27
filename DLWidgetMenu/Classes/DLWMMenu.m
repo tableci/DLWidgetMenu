@@ -465,7 +465,6 @@ NSString * const DLWMMenuLayoutChangedNotification = @"DLWMMenuLayoutChangedNoti
 	[menuItem addGestureRecognizer:doubleTapRecognizer];
 	
 	UITapGestureRecognizer *singleTapRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(receivedSingleTap:)];
-	[singleTapRecognizer requireGestureRecognizerToFail:doubleTapRecognizer];
 	[menuItem addGestureRecognizer:singleTapRecognizer];
 }
 
