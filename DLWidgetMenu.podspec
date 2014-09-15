@@ -32,7 +32,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => 'BSD-3', :file => 'LICENSE' }
   s.author       = { "Vincent Esche" => "regexident@gmail.com" }
   s.platform     = :ios, '6.1'
-  s.source       = { :git => "https://github.com/regexident/DLWidgetMenu.git", :tag => '1.2' }
+  s.source       = { :git => "https://github.com/regexident/DLWidgetMenu.git", :tag => '1.2gw' }
   s.source_files  = 'DLWidgetMenu/Classes/*.{h,m}'
   s.requires_arc = true
 
